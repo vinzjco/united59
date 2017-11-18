@@ -1,0 +1,232 @@
+body {
+    margin : 0;
+    background-color: #040300;
+    background-size: 1920px 1080px;
+    font-family: 'Roboto', sans-serif;
+    /*background-repeat: repeat;*/
+}
+
+#bgFifa {
+    min-height : 100%;
+    min-width : 100%;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+
+#topImg {
+    transform: translate(0px, -300px);
+}
+
+#topBtn {
+    transform: translate(0px, -250px);
+}
+
+.contact {
+    background-color: #040300;
+}
+
+#newsBtn {
+    transform: translate(0px, -240px);
+}
+
+#txtPromo {
+    font-size: 300%;
+    color: #0784f7;
+    margin-top: -40px;
+}
+
+#bannerSportbook {
+    border: solid 7px #133191;
+    width: 100%;
+}
+
+#bannerBonus{
+    border: solid 7px #133191;
+    width: 100%;
+    height: auto;
+    margin-top: -15px;
+}
+#bannerBonus:hover{
+    transition: .5s ease;
+    -webkit-filter: brightness(35%);
+}
+
+#logoPowerredBy {
+    width: 700px;
+    height : 75px;
+    -webkit-filter: contrast(150%);
+    -webkit-filter: brightness(135%);
+    transform: translate(0px, -180px);
+}
+
+#pos_whyChoose {
+    transform: translate(0px, -170px);
+}
+
+#paymentMethod {
+    border: solid 2px blue;
+    border-radius: 8px;
+    width: 100%;
+}
+
+#pos_payment {
+    transform: translate(0px, -170px);
+}
+
+#bank {
+    display: inline-block;
+    background-color: #023464;
+    border-radius: 8px;
+    margin: 10px;
+    font-size: 12px;
+    width: 180px;
+    height: 180px;
+}
+.logoBank {
+    width: 100px;
+    height: 50px;
+}
+
+#about {
+    transform: translate(0px, -85px);
+}
+
+#text {
+    margin-top: -10px;
+}
+#wrapper #text {
+    visibility: hidden;
+    font-size: 25px;
+    color: #f7f7f9;
+    text-decoration: none;
+}
+
+#wrapper:hover #text {
+    visibility: visible;
+    transition: .5s ease;
+}
+
+#bannerTangkas {
+    border: solid 7px #133191;
+    width: 100%;
+    margin-top: -2px;
+}
+#bannerTangkas:hover {
+    transition: .5s ease;
+    -webkit-filter: brightness(35%);
+}
+
+#article {
+    background-color: #daeeff;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+#rightContent {
+    border: solid 1px blue;
+}
+
+#bannerRightContent {
+    width: 170px;
+    height:auto;
+}
+
+#pos_bannerHome {
+    transform: translate(0px, -200px);
+}
+#bannerHome {
+    border: solid 7px #133191;
+    width: 100%;
+    height: 130px;
+}
+
+#pos_wowslider {
+    border: solid 7px #133191;
+    width: 100%;
+    height: auto;
+    transform: translate(0px, -200px);
+}
+
+.btn-group-justified {
+    transform: translate(0%,-400%);
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: separate; }
+.btn-group-justified .btn,
+.btn-group-justified .btn-group {
+    float: none;
+    display: table-cell;
+    width: 1%; }
+.btn-group-justified .btn .btn,
+.btn-group-justified .btn-group .btn {
+    width: 100%; }
+.btn-group-justified .btn .dropdown-menu,
+.btn-group-justified .btn-group .dropdown-menu {
+    left: auto; }
+
+.jumbotron {
+    transform: translate(0%,-10%);
+    background-color: #040300;
+    border: solid 1px blue;
+    margin-top: -100px;
+    margin-bottom: -75px;
+}
+
+.btn-gradient {
+    border-radius: 10px;
+    padding: 20px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#2493f6, blue, #2493f6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2493f6, blue, #2493f6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2493f6, blue, #2493f6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#2493f6, blue, #2493f6); /* Standard syntax */
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.headicon  {
+    width: 25px;
+    height: 25px;
+    margin: 15px;
+    margin-left: 1px;
+    margin-bottom: 15px;
+}
+.boxHeadIcon {
+    width: 190px;
+    height: 30px;
+}
+
+.dropdown-menu {
+    transform: translate(300px, 0px);
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 100%;
+    background-color:blue;
+    height: 1px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .headicon {
+        width: 25px;
+        height: 25px;
+        margin: 2px;
+    }
+    .boxHeadIcon {
+        width: 190px;
+        height: 30px;
+    }
+    .dropdown-menu {
+        transform: translate(0px, 0px);
+    }
+}
