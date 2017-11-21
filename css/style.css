@@ -2,7 +2,7 @@ body {
     margin : 0;
     background-color: #040300;
     background-size: 1920px 1080px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     /*background-repeat: repeat;*/
 }
 
@@ -57,7 +57,7 @@ body {
     height : 75px;
     -webkit-filter: contrast(150%);
     -webkit-filter: brightness(135%);
-    transform: translate(0px, -180px);
+    transform: translate(-20px, -180px);
 }
 
 #pos_whyChoose {
@@ -74,18 +74,22 @@ body {
     transform: translate(0px, -170px);
 }
 
-#bank {
+.bank {
     display: inline-block;
     background-color: #023464;
     border-radius: 8px;
     margin: 10px;
-    font-size: 12px;
-    width: 180px;
-    height: 180px;
+    font-size: 10.5px;
+    width: 155px;
+    height: 165px;
 }
 .logoBank {
     width: 100px;
     height: 50px;
+}
+
+.hovBlue {
+    color: deepskyblue;
 }
 
 #about {
@@ -135,17 +139,10 @@ body {
 #pos_bannerHome {
     transform: translate(0px, -200px);
 }
-#bannerHome {
+.bannerHome {
     border: solid 7px #133191;
     width: 100%;
     height: 130px;
-}
-
-#pos_wowslider {
-    border: solid 7px #133191;
-    width: 100%;
-    height: auto;
-    transform: translate(0px, -200px);
 }
 
 .btn-group-justified {
@@ -172,6 +169,16 @@ body {
     border: solid 1px blue;
     margin-top: -100px;
     margin-bottom: -75px;
+}
+
+#pos_wowslider {
+    border: solid 7px #133191;
+    width: 100%;
+    height: auto;
+    transform: translate(0px, -200px);
+}
+#wowslider-container1 {
+
 }
 
 .btn-gradient {
@@ -204,6 +211,27 @@ body {
     height: 30px;
 }
 
+.contacticon  {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+.boxContactIcon {
+    width: 250px;
+    height: 35px;
+}
+
+.text-espn-green {
+    font-family: "SF Sports Night";
+    font-size: 20px;
+    color: #01fe1f;
+}
+.text-espn-gray {
+    font-family: "SF Sports Night";
+    font-size: 30px;
+    color: lightgrey;
+}
+
 .dropdown-menu {
     transform: translate(300px, 0px);
 }
@@ -215,6 +243,10 @@ hr {
     width: 100%;
     background-color:blue;
     height: 1px;
+}
+
+.text-footer {
+    color: #094985;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -230,4 +262,9 @@ hr {
     .dropdown-menu {
         transform: translate(0px, 0px);
     }
+}
+
+@font-face {
+    font-family: "SF Sports Night";
+    src: url('../font-awesome/fonts/SFSportsNight.ttf');
 }
