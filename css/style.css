@@ -188,7 +188,7 @@ body {
     background: -webkit-linear-gradient(#2493f6, blue, #2493f6); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#2493f6, blue, #2493f6); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#2493f6, blue, #2493f6); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#2493f6, blue, #2493f6); /* Standard syntax */
+    background: linear-gradient(#2493f6, mediumblue, #2493f6); /* Standard syntax */
 }
 
 .icon {
@@ -267,4 +267,59 @@ hr {
 @font-face {
     font-family: "SF Sports Night";
     src: url('../font-awesome/fonts/SFSportsNight.ttf');
+}
+
+#marqBanner {
+    padding-left: 60%;
+}
+
+/*navbar*/
+
+.nav.navbar-nav {
+    /*background: url('../image/main-navbg.png') no-repeat center;*/
+    box-shadow: 1px 0 2px #000000 inset;
+    border-radius: 8px 8px 0 0;
+    display: block;
+    height: 60px;
+    list-style: none outside none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navbar-nav > li {
+    background: url('../image/li-menu.png') no-repeat center right;
+    float: left;
+    padding: 2px 0px;
+    line-height: 2;
+    height: 60px;
+    text-align: center;
+    min-width: 14%;
+}
+
+.nav.navbar-nav {
+    list-style: none outside none;
+}
+
+.navbar-nav > li > a:hover, .dropdown > a:focus, .dropdown > a.active, li.current-menu-item > a {
+    color: #5bc0de;
+    text-shadow: 3px 2px 3px #000000;
+}
+
+.navbar-nav > li > a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    position: relative;
+    width: 100%;
+    line-height: 3;
+    min-height: 43px;
+    border-bottom: 4px solid transparent;
+}
+
+a:link, a:visited {
+    color: #2aabd2;
+    text-decoration: none;
 }
